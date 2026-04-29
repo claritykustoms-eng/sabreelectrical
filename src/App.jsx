@@ -1,26 +1,23 @@
 import { useEffect, useMemo, useState } from "react";
 
 const projects = [
-  { src: "/images/kitchen1.jpg", title: "Kitchen Electrical Installation", cat: "Domestic" },
-  { src: "/images/kitchen2.jpg", title: "Under Cabinet Lighting", cat: "Lighting" },
-  { src: "/images/kitchen3.jpg", title: "Full Kitchen Rewire", cat: "Domestic" },
-  { src: "/images/kitchen4.jpg", title: "Finished Kitchen Lighting", cat: "Interior" },
-  { src: "/images/rgb-controller.jpg", title: "RGB Smart Lighting Control", cat: "Smart Systems" },
-  { src: "/images/led-drivers.jpg", title: "LED Driver Installation Setup", cat: "Electrical" },
-  { src: "/images/led-wiring.jpg", title: "LED Control System Wiring", cat: "Electrical" },
-  { src: "/images/sabre-van.jpg", title: "On-Site Project – Cotswolds", cat: "Commercial" },
-  { src: "/images/server-rack.jpg", title: "Home Network & AV Rack Install", cat: "Smart Home" },
-  { src: "/images/ev1.jpg", title: "Garden EV Charger Install", cat: "EV Charging" },
-  { src: "/images/ev2.jpg", title: "Wall Mounted EV Charger", cat: "EV Charging" },
-  { src: "/images/kitchen-finish.jpg", title: "Premium Kitchen Lighting Finish", cat: "Interior" },
-  { src: "/images/stairs-led.jpg", title: "LED Stair Lighting", cat: "Lighting" },
-  { src: "/images/driveway-ev.jpg", title: "Driveway EV Charging Setup", cat: "EV Charging" },
-  { src: "/images/cylinder-install.jpg", title: "Hot Water Cylinder Electrical", cat: "Electrical" },
-  { src: "/images/outdoor-install.jpg", title: "External Electrical Install", cat: "Commercial" },
-  { src: "/images/shoe-lighting.jpg", title: "Bespoke LED Joinery Lighting", cat: "Interior" },
-  { src: "/images/feature-ceiling.jpg", title: "LED Feature Ceiling Design", cat: "Lighting" },
-  { src: "/images/garden-room.jpg", title: "Garden Room Lighting & Power", cat: "Domestic" },
-  { src: "/images/landscape-lighting.jpg", title: "Landscape & Garden Lighting", cat: "Outdoor" }
+  { src: "/images/3 phase consumer unit.webp", title: "Consumer Unit Upgrade", cat: "Domestic" },
+  { src: "/images/3 zone heating and hotwater install - Cirencester.webp", title: "Heating & Hot Water Controls", cat: "Domestic" },
+  { src: "/images/Annex Rewire - Willersey (1).webp", title: "Annex Rewire", cat: "Rewires" },
+  { src: "/images/Annex Rewire - Willersey (2).webp", title: "Annex Rewire (Phase 2)", cat: "Rewires" },
+  { src: "/images/Bathroom Lighting - Gloucester.webp", title: "Bathroom Lighting", cat: "Lighting" },
+  { src: "/images/Bathroom Mirror.webp", title: "Bathroom Mirror Lighting", cat: "Lighting" },
+  { src: "/images/Bathroom niche lighting - Alcester (1).webp", title: "Niche Lighting", cat: "Lighting" },
+  { src: "/images/Cinema Room Install (1).webp", title: "Cinema Room Install", cat: "Smart Home" },
+  { src: "/images/Cinema Room Install (3).webp", title: "Cinema Room Lighting", cat: "Smart Home" },
+  { src: "/images/Cinema Room Install (5).webp", title: "Cinema Room Finish", cat: "Smart Home" },
+  { src: "/images/Commercial Shop lighting upgrade (1).webp", title: "Shop Lighting Upgrade", cat: "Commercial" },
+  { src: "/images/Commercial Shop lighting upgrade (2).webp", title: "Retail Lighting Upgrade", cat: "Commercial" },
+  { src: "/images/Commercial studio lighting - Broadway (1).webp", title: "Studio Lighting", cat: "Commercial" },
+  { src: "/images/Commercial studio lighting - Broadway (2).webp", title: "Studio Lighting Finish", cat: "Commercial" },
+  { src: "/images/Commercial workshop (1).webp", title: "Workshop Electrical Install", cat: "Commercial" },
+  { src: "/images/Commercial workshop (2).webp", title: "Workshop Upgrade", cat: "Commercial" },
+  { src: "/images/Consumer Units (1).webp", title: "Consumer Unit Installation", cat: "Domestic" }
 ];
 
 const services = [
