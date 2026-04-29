@@ -368,7 +368,7 @@ export default function SabreElectricalWebsite() {
             <p className="text-lg mb-4">Tell us what you need help with and we’ll get back to you as soon as possible.</p>
             <p className="text-gray-600">Domestic, commercial, inspection, testing and renewables enquiries are all welcome.</p>
           </div>
-          <form name="quote" method="POST" data-netlify="true" action="/thank-you" className="bg-white p-8 rounded-3xl shadow-xl space-y-4">
+          <form action="https://formspree.io/f/xqewrrzd" method="POST" className="bg-white p-8 rounded-3xl shadow-xl space-y-4">
             <input type="hidden" name="form-name" value="quote" />
             <h3 className="text-2xl font-semibold mb-4">Contact Us</h3>
             <input name="name" placeholder="Your name" className="w-full p-4 rounded-2xl border" required />
@@ -399,7 +399,7 @@ export default function SabreElectricalWebsite() {
         </div>
       </section>
 
-      <LaunchChecklist />
+      
       <Footer />
     </div>
   );
@@ -412,7 +412,7 @@ function Header({ goTo, menuOpen, setMenuOpen }) {
     <header className="sticky top-0 z-50 backdrop-blur bg-white/90 border-b">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
         <button type="button" onClick={() => goTo("home")} className="flex items-center gap-3 text-left" aria-label="Go to homepage">
-          <img src="/logo.jpg" alt="Sabre Electrical Logo" className="h-12 w-auto" />
+          <img src="/logo.png" alt="Sabre Electrical Logo" className="h-12 w-auto" />
         </button>
         <nav className="hidden md:flex gap-6 text-sm font-medium items-center" aria-label="Main navigation">
           <button type="button" onClick={() => goTo("home")}>Home</button>
