@@ -321,9 +321,16 @@ export default function SabreElectricalWebsite() {
                 <div className="mt-4 font-semibold">★★★★★ {review.name}</div>
               </div>
             ))}
-          </div>
-          <p className="text-center mt-6 text-sm text-gray-500">Connect this to your Google Business Profile or replace with selected real reviews before launch.</p>
-        </div>
+         <div className="text-center mt-8">
+  <a
+    href="https://www.google.com/search?q=Sabre+Electrical+Ltd&stick=H4sIAAAAAAAA_-NgU1I1qEhMNDBNNjM2MjQyNjKxTLS0MqhISzNOMk0xSDVNSUo2sEgyWcQqEpyYVJSq4JqTmlxSlJmcmKPgU5ICAFz1hBZAAAAA"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-6 py-3 bg-gray-900 text-white rounded-2xl font-semibold"
+  >
+    View all Google reviews
+  </a>
+</div>
       </section>
 
       <section id="gallery" className="bg-gray-100 p-10 md:p-20">
