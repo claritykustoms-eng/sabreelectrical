@@ -90,7 +90,7 @@ const reviews = [
     text: "1st class service, quality and affordable. Will use them again."
   },
   {
-    name: "GEorgina F",
+    name: "Georgina F",
     text: "Will has installed a new electric shower and also an outdoor plug socket. Work was done neatly and no mess was left, explained the work well to me, and service was professional."
   }
 ];
