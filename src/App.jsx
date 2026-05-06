@@ -81,9 +81,18 @@ const renewables = [
 ];
 
 const reviews = [
-  { name: "Google Review", text: "Excellent service, punctual and highly professional." },
-  { name: "Google Review", text: "Top quality workmanship and great communication." },
-  { name: "Google Review", text: "Would highly recommend Sabre Electrical." }
+  {
+    name: "Dan K",
+    text: "Very reliable, friendly and knowledgeable electrician. NAPIT certificate received shortly after completion. Would highly recommend Will, and will definitely use him again."
+  },
+  {
+    name: "Chris B",
+    text: "1st class service, quality and affordable. Will use them again."
+  },
+  {
+    name: "GEorgina F",
+    text: "Will has installed a new electric shower and also an outdoor plug socket. Work was done neatly and no mess was left, explained the work well to me, and service was professional."
+  }
 ];
 
 const serviceAreas = ["Cheltenham", "Gloucester", "Cotswolds", "Worcestershire", "Warwickshire", "Herefordshire", "Gloucestershire"];
